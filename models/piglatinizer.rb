@@ -1,5 +1,6 @@
 class PigLatinizerdef piglatinize(word)
     # word starts with vowel
+  def piglatinize(word)
     if !consonant?(word[0])
       word = word + "w"
     # word starts with 3 consonants
