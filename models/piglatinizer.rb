@@ -1,4 +1,4 @@
-class PigLatinizerdef
+class PigLatinizer
     # word starts with vowel
   def piglatinize(word)
     if !consonant?(word[0])
